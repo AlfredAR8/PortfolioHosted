@@ -1,0 +1,532 @@
+{
+  "es": {
+    "pageTitle": "Tu Nombre - Portfolio",
+    "yourName": "Tu Nombre",
+    "nav": {
+      "inicio": "Inicio",
+      "proyectos": "Proyectos",
+      "contacto": "Contacto"
+    },
+    "inicio": {
+      "title": "Bienvenido a Mi Portfolio",
+      "description": "Soy un apasionado desarrollador y diseñador...",
+      "cvButton": "Ver Mi CV"
+    },
+    "proyectos": {
+      "title": "Mis Proyectos"
+    },
+    "tabs": {
+      "todos": "Todos",
+      "web": "Web",
+      "mobile": "Mobile",
+      "software": "Software",
+      "design": "Diseño"
+    },
+    "contacto": {
+      "title": "Contacto",
+      "description": "Si estás interesado en colaborar... <a href='mailto:tuemail@example.com'>tuemail@example.com</a>.",
+      "linkedin": "También puedes encontrarme en <a href='https://linkedin.com/in/tuperfil' target='_blank'>LinkedIn</a>."
+    },
+    "projectsData": [
+      {
+        "id": 1,
+        "category": "Desarrollo de Aplicaciones y Software",
+        "imageSrc": "proyecto-web-alfa.jpg",
+        "title": "Meeting Checker",
+        "description": "Aplicación de escritorio (Windows) publicada en Microsoft Store para notificar el inicio de reuniones en Google Meet mediante alertas en Discord.",
+        "detailedDescription": "Una de mis primeras aplicaciones ambiciosas, lanzada en la Microsoft Store y actualmente en proceso de mantenimiento para un posible relanzamiento. Meeting Checker detectaba automáticamente el inicio de reuniones en Google Meet y enviaba notificaciones a través de Discord. Esta herramienta buscaba solucionar la necesidad de recargar constantemente la página de Google Meet cuando el anfitrión aún no había ingresado. Curiosamente, dos semanas tras su lanzamiento, Google implementó una funcionalidad nativa que permitía esperar dentro de la reunión, volviendo obsoleta la función principal de Meeting Checker. Por este motivo, se retiró de la venta, aunque su ficha permanece visible en la Microsoft Store.",
+        "button1": {
+          "text_es": "Ver en Tienda",
+          "text_en": "View on Store",
+          "link": "https://apps.microsoft.com/store/detail/meeting-checker/9PBRFC6L0S8X",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 2,
+        "category": "Diseño y Desarrollo de Videojuegos, VR/AR y Experiencias Inmersivas",
+        "imageSrc": "app-movil-beta.png",
+        "title": "SkyDome",
+        "description": "Aplicación inmersiva para Meta Quest, desarrollada en Unreal Engine y disponible en la Meta Quest Store, que transforma el techo de cualquier habitación en un cielo dinámico.",
+        "detailedDescription": "SkyDome es una aplicación de realidad mixta para Meta Quest que redefine el ambiente de cualquier espacio interior. Mediante el escaneo del entorno, identifica el techo de la habitación y proyecta sobre él cielos dinámicos y personalizables, desde noches estrelladas hasta cielos diurnos o imágenes 360° subidas por el usuario. El objetivo de SkyDome es enriquecer la percepción del entorno físico, ofreciendo una ventana a cielos abiertos desde la comodidad de una habitación, oficina o estudio, mejorando así la atmósfera del lugar a través de la realidad extendida.",
+        "button1": {
+          "text_es": "Ver en Tienda",
+          "text_en": "View on Store",
+          "link": "https://www.meta.com/experiences/7103415146361501/",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 3,
+        "category": "Desarrollo de Aplicaciones y Software",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Bots de Gestión Automatizada para Redes Sociales (Fortnite)",
+        "description": "Desarrollo de bots en Node.js para automatizar la publicación de contenido visual y actualizaciones de Fortnite en Twitter, utilizando APIs públicas.",
+        "detailedDescription": "Creé una serie de bots en Node.js especializados en la difusión de novedades sobre Fortnite. Estos bots monitoreaban APIs públicas para detectar actualizaciones del juego (nuevos cosméticos, eventos, cambios en la tienda) y, al identificar nueva información, generaban automáticamente imágenes optimizadas para redes sociales, publicándolas en una cuenta de Twitter. Cada bot se enfocaba en un tipo de contenido específico, trabajando coordinadamente para ofrecer información inmediata y visualmente atractiva, manteniendo una presencia activa y profesional sin intervención manual constante.",
+        "button1": {
+          "text_es": "Ver código",
+          "text_en": "View code",
+          "link": "https://github.com/AlfredAR8/Portfolio/tree/main/Bots",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 4,
+        "category": "Desarrollo de Aplicaciones y Software",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Echo Insight",
+        "description": "Aplicación para iOS, iPadOS, macOS y visionOS que utiliza IA para analizar playlists y generar recomendaciones musicales personalizadas.",
+        "detailedDescription": "Echo Insight es una aplicación de descubrimiento musical impulsada por inteligencia artificial. Su función principal es analizar el contenido de las playlists favoritas del usuario para ofrecer recomendaciones precisas de canciones y artistas afines a sus gustos. Simplemente compartiendo una playlist, la app procesa la información y genera sugerencias, buscando renovar y enriquecer la experiencia de descubrimiento musical del usuario en el ecosistema Apple.",
+        "button1": {
+          "text_es": "Ver en Tienda",
+          "text_en": "View on Store",
+          "link": "https://apps.apple.com/mx/app/echo-insight/id6657958000",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 5,
+        "category": "Arte Conceptual y Diseño de Assets (2D/3D)",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Concepto de Skin Reactiva: Guerrero Azteca",
+        "description": "Diseño conceptual de una skin reactiva para personaje de videojuego, que modifica su apariencia y accesorios en tiempo real según acciones o estados del juego.",
+        "detailedDescription": "Desarrollé el concepto para una skin de personaje reactiva, inspirada en la cultura azteca. Esta skin cambia dinámicamente elementos como armadura, accesorios y armas en respuesta a acciones específicas del jugador (activar habilidades, alcanzar estados). El diseño incorpora detalles culturales y simbólicos que enriquecen la narrativa visual, buscando generar una experiencia más envolvente y personalizada dentro del juego.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/AztecWarrior.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 6,
+        "category": "Ilustración Digital y Diseño Gráfico",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Ilustración: Doctor Strange en el Multiverso de la Locura",
+        "description": "Ilustración digital inspirada en la película, capturando la esencia mágica y visual del universo Marvel con personajes y elementos clave.",
+        "detailedDescription": "Realicé una ilustración digital basada en 'Doctor Strange en el Multiverso de la Locura'. En esta pieza, representé a los personajes principales dentro de una escena conceptual que integra elementos visuales y simbólicos característicos de la película. El proyecto se centró en el manejo del color, la composición y los efectos digitales para evocar la atmósfera mágica y multidimensional, demostrando habilidades en ilustración digital aplicada a la cultura pop.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/DrStrange.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 7,
+        "category": "Arte Conceptual y Diseño de Assets (2D/3D)",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Concepto de Skin Reactiva: Monstruo de Lava",
+        "description": "Diseño conceptual de una skin reactiva para videojuego que evoluciona visualmente con efectos dinámicos en accesorios, cuerpo y movimientos según eventos del juego.",
+        "detailedDescription": "Conceptualicé y diseñé una skin de personaje reactiva con temática de 'Monstruo de Lava'. Esta skin incorpora efectos visuales dinámicos en accesorios (como calabazas y esferas) y transformaciones en el cuerpo (pies, texturas) que responden a acciones clave como eliminaciones y otros eventos dentro de la partida, ofreciendo una narrativa visual evolutiva y una interacción más inmersiva.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/LavaMonster.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 8,
+        "category": "Ilustración Digital y Diseño Gráfico",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Ilustración para NFT: Calabaza Tecnológica",
+        "description": "Diseño de una ilustración digital original para un NFT, presentando una calabaza con un estilo tecnológico y detalles llamativos, orientada al arte coleccionable.",
+        "detailedDescription": "Creé un diseño digital original concebido como un NFT, protagonizado por una 'Calabaza Tecnológica'. La ilustración destaca por un estilo distintivo y detalles minuciosos, pensada para plataformas de arte digital y coleccionables cripto. Este proyecto demuestra habilidades en ilustración digital creativa y una comprensión del emergente mercado de tokens no fungibles.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/TechPumpkin.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 9,
+        "category": "Diseño de Interfaces (UI/UX)",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Diseño UI para App de Ropa con Avatar 3D",
+        "description": "Diseño de la interfaz de usuario (UI) para una aplicación móvil de e-commerce de moda, permitiendo visualizar y personalizar prendas en un avatar 3D.",
+        "detailedDescription": "Desarrollé el diseño de interfaz para una aplicación móvil de una tienda de ropa. El enfoque principal fue la visualización y personalización de prendas mediante un avatar 3D interactivo, buscando facilitar a los usuarios la exploración y combinación de productos a través de una experiencia intuitiva y visualmente atractiva.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/ClothingAppUI.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 10,
+        "category": "Diseño de Interfaces (UI/UX)",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Diseño UI: Pantalla de Inicio para Videojuego",
+        "description": "Diseño de la interfaz de inicio para una aplicación de juego, con opciones claras de inicio/registro y selección de personajes, mejorando la experiencia de usuario.",
+        "detailedDescription": "Desarrollé el diseño de la pantalla de inicio para una aplicación de juego social, inspirada en la estética de 'Club Penguin Island'. Se integraron funciones de inicio de sesión y registro, junto con una selección visual e interactiva de personajes, priorizando la usabilidad y una estética amigable para una primera impresión atractiva.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/GameLoginUI.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 11,
+        "category": "Ilustración Digital y Diseño Gráfico",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Diseño Gráfico para Bot de Noticias de Videojuegos (Fortnite)",
+        "description": "Creación de plantillas gráficas para un bot que genera automáticamente imágenes con noticias y actualizaciones del videojuego Fortnite, optimizadas para redes sociales.",
+        "detailedDescription": "Desarrollé el sistema de diseño gráfico para un bot automatizado encargado de crear y publicar imágenes informativas sobre noticias, actualizaciones y eventos del videojuego Fortnite. Este trabajo incluyó la creación de plantillas y elementos visuales llamativos, con una estructura clara para comunicar eficazmente y de forma atractiva con la comunidad en plataformas digitales.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/FortniteNewsDesign.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 12,
+        "category": "Animación 3D",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Animación 3D en Blender: We Don’t Talk About Bruno (Encanto)",
+        "description": "Recreación de una escena de 'Encanto' mediante animación 3D en Blender, enfocada en modelado de personajes y sincronización de movimientos con la música.",
+        "detailedDescription": "Desarrollé una animación 3D completa en Blender inspirada en la canción 'We Don’t Talk About Bruno' de la película 'Encanto'. El proyecto abarcó el modelado, rigging y animación de personajes, con especial atención a la sincronización labial y de movimientos con la música, así como la expresión emocional, demostrando dominio en técnicas de animación digital.",
+        "button1": {
+          "text_es": "Ver Video",
+          "text_en": "View Video",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/EncantoAnimation.mp4",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 13,
+        "category": "Animación 3D",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Animación 3D en Blender: One Way or Another (Hocus Pocus 2)",
+        "description": "Creación de una animación 3D en Blender basada en un fragmento musical de 'Hocus Pocus 2', aplicando técnicas de rigging y animación para movimientos expresivos.",
+        "detailedDescription": "Realicé una animación 3D detallada en Blender inspirada en un fragmento de la canción 'One Way or Another' de la película 'Hocus Pocus 2'. El trabajo involucró el modelado, rigging y animación de los personajes, centrándome en lograr movimientos naturales y expresivos que capturaran la esencia del material original, demostrando habilidades en producción animada para medios digitales.",
+        "button1": {
+          "text_es": "Ver Video",
+          "text_en": "View Video",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/HocusPocusAnimation.mp4",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 14,
+        "category": "Modelado 3D",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Modelado 3D: Exterior Clásico de Club Penguin",
+        "description": "Recreación mediante modelado 3D detallado del exterior de un edificio icónico de la versión clásica del juego Club Penguin, replicando su estilo característico.",
+        "detailedDescription": "Desarrollé un modelado 3D del exterior de un edificio emblemático de la versión clásica del videojuego Club Penguin. El enfoque fue capturar fielmente sus detalles arquitectónicos y el estilo visual distintivo, utilizando técnicas de modelado y texturizado para recrear una pieza representativa y nostálgica del universo del juego.",
+        "button1": {
+          "text_es": "Vista 1",
+          "text_en": "View 1",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/ClubPenguinExterior1.png",
+          "isVisible": true
+        },
+        "button2": {
+          "text_es": "Vista 2",
+          "text_en": "View 2",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/ClubPenguinExterior2.png",
+          "isVisible": true
+        }
+      },
+      {
+        "id": 15,
+        "category": "Modelado 3D",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Modelado 3D: Interior de Pizzería",
+        "description": "Creación de un modelado 3D detallado del interior de una pizzería, incluyendo mobiliario, decoración y elementos característicos para un ambiente realista.",
+        "detailedDescription": "Desarrollé un modelado 3D completo del interior de una pizzería. Este proyecto integró detalles como mesas, sillas, barra, horno y elementos decorativos, prestando especial atención a la distribución espacial y al realismo visual. Se utilizaron técnicas de modelado y texturizado para crear un ambiente acogedor y representativo del establecimiento.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/PizzeriaInterior.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 16,
+        "category": "Arte Conceptual y Diseño de Assets (2D/3D)",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Render de Skin Conceptual para Fortnite: Texturizado y Partículas",
+        "description": "Proceso completo de texturizado, aplicación de efectos de partículas y renderizado para un concepto de skin de Fortnite con estilo futurista.",
+        "detailedDescription": "Desarrollé el texturizado detallado, la integración de efectos de partículas (como energía y hologramas) y el renderizado final para una skin conceptual original para Fortnite. El objetivo fue crear un diseño visualmente impactante y coherente con una estética futurista, incluyendo la creación de texturas personalizadas, efectos luminosos y una presentación realista para destacar la estética del personaje.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/FortniteSkinRender.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 17,
+        "category": "Animación 3D",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Animación Conceptual de Skin para Fortnite",
+        "description": "Creación de una animación conceptual básica para una skin de Fortnite, mostrando movimientos y poses clave para visualizar la dinámica del personaje.",
+        "detailedDescription": "Desarrollé una animación conceptual breve para una skin de Fortnite. El enfoque fue mostrar movimientos esenciales y poses características que permitieran visualizar la dinámica y el estilo del personaje. Se utilizaron técnicas de animación 3D para presentar un concepto inicial, sirviendo como base para un posible desarrollo más avanzado.",
+        "button1": {
+          "text_es": "Ver Video",
+          "text_en": "View Video",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/FortniteSkinAnimation.mp4",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 18,
+        "category": "Modelado 3D",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Modelado y Edición 3D: Concepto de Skin para Fortnite",
+        "description": "Desarrollo de modelado y edición 3D para un concepto de skin de Fortnite, centrado en la pose, detalles y ambientación del personaje.",
+        "detailedDescription": "Realicé el modelado y la edición 3D para una skin conceptual de Fortnite. Este trabajo se enfocó en la representación visual del personaje en un entorno que resalta su pose relajada y estilo único, utilizando técnicas de modelado, texturizado y composición para presentar una idea atractiva y coherente dentro del posible universo del juego.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/FortniteSkinConcept3D.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 19,
+        "category": "Arte Conceptual y Diseño de Assets (2D/3D)",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Diseño Conceptual de Skin: The Reprogrammer (Fortnite)",
+        "description": "Creación de un diseño conceptual completo para la skin 'The Reprogrammer' de Fortnite, integrando elementos visuales tecnológicos y efectos holográficos.",
+        "detailedDescription": "Desarrollé un diseño conceptual detallado para la skin 'The Reprogrammer', imaginada para Fortnite e inspirada en temas de tecnología y reprogramación digital. El concepto incluye el personaje, accesorios, efectos holográficos y una estética futurista, con énfasis en la interacción visual y la coherencia temática para enriquecer la experiencia del jugador.",
+        "button1": {
+          "text_es": "Vista 1",
+          "text_en": "View 1",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/ReprogrammerSkin1.png",
+          "isVisible": true
+        },
+        "button2": {
+          "text_es": "Vista 2",
+          "text_en": "View 2",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/ReprogrammerSkin2.png",
+          "isVisible": true
+        }
+      },
+      {
+        "id": 20,
+        "category": "Diseño y Desarrollo de Videojuegos, VR/AR y Experiencias Inmersivas",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Proyecto Conceptual 3D: Club Penguin en Unreal Engine 5",
+        "description": "Desarrollo de un prototipo conceptual de Club Penguin utilizando Unreal Engine 5, explorando la recreación y modernización visual del juego clásico.",
+        "detailedDescription": "Creé un proyecto conceptual en 3D de Club Penguin utilizando Unreal Engine 5. El objetivo fue la recreación fiel del entorno y personajes clásicos con un apartado gráfico moderno. Este proyecto exploró técnicas avanzadas de modelado, iluminación y shaders para actualizar visualmente el universo original, buscando mantener su esencia y estilo reconocible mientras se aprovechaban las capacidades de UE5.",
+        "button1": {
+          "text_es": "Ver Video",
+          "text_en": "View Video",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/ClubPenguinUE5.mp4",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 21,
+        "category": "Diseño y Desarrollo de Videojuegos, VR/AR y Experiencias Inmersivas",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Videojuego Educativo VR/Escritorio: “View Worlds”",
+        "description": "Diseño y desarrollo individual de una aplicación educativa multiplataforma (VR y escritorio) que combina exploración interactiva y gamificación.",
+        "detailedDescription": "Realicé de manera integral el diseño y desarrollo de “View Worlds”, una aplicación educativa concebida inicialmente para Realidad Virtual y posteriormente adaptada a plataformas de escritorio. Implementé mecánicas interactivas donde los estudiantes exploran entornos inmersivos, responden preguntas y recolectan llaves para desbloquear niveles, fomentando el aprendizaje activo. Se incorporaron elementos de gamificación para motivar la participación, utilizando Unreal Engine 4 para una experiencia visual fluida y atractiva.",
+        "button1": {
+          "text_es": "Vista 1 (VR)",
+          "text_en": "View 1 (VR)",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/ViewWorldsVR.png",
+          "isVisible": true
+        },
+        "button2": {
+          "text_es": "Vista 2 (Escritorio)",
+          "text_en": "View 2 (Desktop)",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/ViewWorldsDesktop.png",
+          "isVisible": true
+        }
+      },
+      {
+        "id": 22,
+        "category": "Diseño de Interfaces (UI/UX)",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Diseño de interfaz para calendario escolar interactivo",
+        "description": "Diseñé la interfaz de usuario para un calendario escolar que organiza clases, horarios y detalles importantes con una presentación clara y accesible.",
+        "detailedDescription": "Desarrollé el diseño de interfaz para un calendario escolar digital, facilitando la gestión visual de clases, horarios, profesores y descansos. La interfaz prioriza la claridad y facilidad de uso, permitiendo a los estudiantes navegar rápidamente entre fechas y obtener detalles específicos de cada materia, mejorando la planificación académica y la experiencia del usuario.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/GameLoginUI.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 23,
+        "category": "Diseño de Interfaces (UI/UX)",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Diseño de interfaz para aplicación de transferencia segura de archivos",
+        "description": "Diseñé la interfaz de usuario para una app que permite compartir fotos y archivos con cifrado, asegurando la privacidad y facilidad de uso.",
+        "detailedDescription": "Desarrollé el diseño de interfaz para una aplicación móvil enfocada en la transferencia segura y cifrada de fotos y archivos, integrando funcionalidades intuitivas para enviar y recibir contenido, gestión de claves seguras y mensajería privada, garantizando una experiencia amigable y protegida para el usuario.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/GameLoginUI.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 24,
+        "category": "Diseño de Interfaces (UI/UX)",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Diseño de ícono para emote de videojuego",
+        "description": "Creé un ícono simple y reconocible para un emote de videojuego, representando una figura en una pose dinámica sobre una tabla de surf.",
+        "detailedDescription": "Diseñé un ícono minimalista para un emote dentro de un videojuego, capturando la silueta de un personaje en pose activa sobre una tabla de surf, con un estilo limpio y colores vibrantes para asegurar su visibilidad y atractivo en interfaces de juego.",
+        "button1": {
+          "text_es": "Ver en Pantalla Completa",
+          "text_en": "View on Fullscreen",
+          "link": "https://alfredar8.github.io/Portfolio/img/portfolio/GameLoginUI.png",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      }
+]
+  },
+  "en": {
+    "pageTitle": "Your Name - Portfolio",
+    "yourName": "Your Name",
+    "nav": {
+      "inicio": "Home",
+      "proyectos": "Projects",
+      "contacto": "Contact"
+    },
+    "inicio": {
+      "title": "Welcome to My Portfolio",
+      "description": "I am a passionate developer and designer...",
+      "cvButton": "View My CV"
+    },
+    "proyectos": {
+      "title": "My Projects"
+    },
+    "tabs": {
+      "todos": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "software": "Software",
+      "design": "Design"
+    },
+    "contacto": {
+      "title": "Contact",
+      "description": "If you are interested in collaborating... <a href='mailto:youremail@example.com'>youremail@example.com</a>.",
+      "linkedin": "You can also find me on <a href='https://linkedin.com/in/yourprofile' target='_blank'>LinkedIn</a>."
+    },
+    "projectsData": [
+      {
+        "id": 1,
+        "category": "web",
+        "imageSrc": "proyecto-web-alfa.jpg",
+        "title": "Alpha Web Project",
+        "description": "Interactive web platform with modern technologies.",
+        "detailedDescription": "This project involved the complete development of a highly interactive web platform from scratch using technologies such as React for the frontend and Node.js with Express for the backend.\nIt includes a robust administration panel, user authentication, and is optimized for SEO and performance.\nUnit and integration tests were implemented to ensure code quality.",
+        "button1": {
+          "text_es": "Ver Demo",
+          "text_en": "View Demo",
+          "link": "https://ejemplo.com/demo1",
+          "isVisible": true
+        },
+        "button2": {
+          "text_es": "Código Fuente",
+          "text_en": "Source Code",
+          "link": "https://github.com/ejemplo/repo1",
+          "isVisible": true
+        }
+      },
+      {
+        "id": 2,
+        "category": "mobile",
+        "imageSrc": "app-movil-beta.png",
+        "title": "Beta Mobile App",
+        "description": "Native app for iOS and Android with a smooth experience.",
+        "detailedDescription": "Development of a native mobile application for iOS and Android.\nThe main focus was to create an intuitive and fluid user experience.",
+        "button1": {
+          "text_es": "Ver en Tienda",
+          "text_en": "View on Store",
+          "link": "https://ejemplo.com/appstore",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        }
+      },
+      {
+        "id": 3,
+        "category": "software",
+        "imageSrc": "software-gamma.jpg",
+        "title": "Gamma Software",
+        "description": "Desktop tool for data analysis.",
+        "detailedDescription": "Construction of a cross-platform desktop tool for data analysis.",
+        "button1": {
+          "isVisible": false
+        },
+        "button2": {
+          "isVisible": false
+        }
+      }
+    ]
+  }
+}

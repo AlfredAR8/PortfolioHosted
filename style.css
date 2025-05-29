@@ -1,0 +1,408 @@
+:root {
+    --primary-color: #4A90E2;
+    --text-color: #333;
+    --light-text-color: #777;
+    --bg-color: #f4f7f6;
+    --card-bg-color: #ffffff;
+    --border-color: #e0e0e0;
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    background-color: var(--card-bg-color);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--light-text-color);
+    font-weight: 600;
+    padding: 8px 0;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: var(--primary-color);
+}
+
+nav ul li a.active::after {
+    width: 100%;
+}
+
+#lang-toggle {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#lang-toggle:hover {
+    background-color: #3a7bc8;
+    transform: translateY(-1px);
+}
+
+#lang-toggle:active {
+    transform: translateY(0px);
+}
+
+main {
+    padding: 30px 40px;
+}
+
+.content-section {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.content-section.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.section-title, #inicio-section h2, #contacto-section h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-title, #inicio-section h3, #contacto-section h3{
+    margin-top: -40px;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#inicio-section p, #contacto-section p {
+    font-size: 1.1em;
+    color: var(--light-text-color);
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+.cv-button { /* Estilo base para botones de acción */
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white !important; /* Importante para sobrescribir color de enlace si se aplica a <a> */
+    padding: 10px 20px; /* Ajustado para botones de modal también */
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px; /* Ajustado */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: none; /* Para asegurar consistencia si se usa en <button> */
+    cursor: pointer;
+}
+
+.cv-button:hover {
+    background-color: #3a7bc8;
+    transform: translateY(-2px);
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    font-size: 0.95em;
+    font-weight: 600;
+    border: 1px solid var(--border-color);
+    background-color: white;
+    color: var(--light-text-color);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab-button.active {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.tab-button:hover:not(.active) {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    text-align: left;
+    font-family: inherit; /* Heredar fuente del body */
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.project-image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.project-image-placeholder-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: #aaa;
+    background-color: #f0f3f5;
+}
+
+.project-card-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.project-card p {
+    font-size: 0.9em;
+    color: var(--light-text-color);
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header { flex-direction: column; align-items: flex-start; gap: 15px; }
+    nav ul { flex-wrap: wrap; gap: 10px; }
+    nav ul li { margin-left: 0; margin-right: 15px; }
+    #lang-toggle { align-self: flex-end; }
+    .section-title, #inicio-section h2, #contacto-section h2 { font-size: 2em; }
+    .project-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+    header { padding: 20px; }
+    main { padding: 20px; }
+    .logo { font-size: 1.5em; }
+    nav ul li a { font-size: 0.9em; }
+    #lang-toggle { padding: 8px 15px; font-size: 0.9em; }
+    .cv-button { padding: 10px 18px; font-size: 0.9em;} /* Ajustar padding de botones */
+}
+
+/* Estilos para el Modal (Popup) */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex; /* Cambiado en JS a flex para mostrarlo */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 700px;
+    max-height: 90vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
+
+.modal-overlay.active .modal-content {
+    transform: scale(1);
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: #888;
+    cursor: pointer;
+    line-height: 1;
+    padding: 5px;
+}
+.modal-close-btn:hover { color: #333; }
+
+.modal-project-image-display {
+    width: 100%;
+    max-height: 350px;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+#modal-project-title {
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--text-color);
+}
+
+.modal-description-scroll {
+    overflow-y: auto;
+    /* max-height: 200px; */ /* Comentado para que tome el espacio restante */
+    flex-grow: 1; /* Para que ocupe el espacio disponible antes de los botones */
+    margin-bottom: 20px; /* Espacio antes de los botones */
+    line-height: 1.7;
+    color: var(--light-text-color);
+    padding-right: 10px;
+}
+.modal-description-scroll::-webkit-scrollbar { width: 8px; }
+.modal-description-scroll::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
+.modal-description-scroll::-webkit-scrollbar-thumb { background: #ccc; border-radius: 10px; }
+.modal-description-scroll::-webkit-scrollbar-thumb:hover { background: #aaa; }
+
+.modal-buttons-container {
+    display: flex;
+    gap: 15px;
+    margin-top: auto; 
+    padding-top: 15px; 
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+
+/* ==== ESTILOS PARA EL WARNING ==== */
+.modal-project-warning {
+    color: red;
+    font-size: 0.3em; /* Ajusta el tamaño si es necesario */
+    text-align: left; /* o center, right según prefieras */
+    padding: 0; /* Ajusta si es necesario */
+    font-weight: 600; /* Opcional: hacerlo un poco más bold */
+}
+/* =============================== */
+
+.modal-project-action-button {
+    /* Hereda estilos de .cv-button */
+    margin-top: 0; /* Quitar margen superior heredado de .cv-button si no se desea aquí */
+    flex-basis: calc(50% - 7.5px); /* Dos botones por línea, considerando el gap */
+    min-width: 120px; /* Ancho mínimo para que no se vean muy pequeños */
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .modal-project-action-button {
+        flex-basis: 100%; /* Un botón por línea en móviles */
+    }
+}

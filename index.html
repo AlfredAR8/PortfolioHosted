@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="pageTitle">Alfredo Arriaga - Portfolio</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo" data-translate="yourName">Alfredo Arriaga</div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio" class="nav-link active" data-section="inicio-section" data-translate="nav.inicio">Inicio</a></li>
+                    <li><a href="#proyectos" class="nav-link" data-section="proyectos-section" data-translate="nav.proyectos">Proyectos</a></li>
+                    <li><a href="#contacto" class="nav-link" data-section="contacto-section" data-translate="nav.contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <button id="lang-toggle" aria-label="Cambiar idioma">EN</button>
+        </header>
+
+        <main>
+            <section id="inicio-section" class="content-section active">
+                <h2 data-translate="inicio.title">Bienvenido a Mi Portfolio</h2>
+                <h3 data-translate="inicio.titlev2">José Alfredo Arriaga Rosillo</h3>
+                <p data-translate="inicio.description">Soy un profesional con más de 7 años de experiencia en desarrollo de software, videojuegos, diseño y animación 3D, combinando habilidades técnicas y creatividad para crear soluciones innovadoras. Actualmente curso la Ingeniería en Software y Sistemas Computacionales, y participo activamente como instructor y ponente en temas relacionados con realidad virtual, inteligencia artificial y desarrollo de aplicaciones.</p>
+                <a href="cves.pdf" target="_blank" class="cv-button" data-translate="inicio.cvButton1">Ver Mi CV | Español</a>
+                <a href="cven.pdf" target="_blank" class="cv-button" data-translate="inicio.cvButton2">Ver Mi CV | Inglés</a>
+            </section>
+
+            <section id="proyectos-section" class="content-section">
+                <h2 style="margin-top: 10px;" class="section-title" data-translate="proyectos.title">Mis Proyectos</h2>
+                <div class="tabs">
+                    <button class="tab-button active" data-filter="all" data-translate="tabs.todos">Todos</button>
+                    <button class="tab-button" data-filter="software" data-translate="tabs.software">Desarrollo de Aplicaciones y Software</button>
+                    <button class="tab-button" data-filter="videojuegos" data-translate="tabs.videojuegos">Diseño y Desarrollo de Videojuegos, VR/AR y Experiencias Inmersivas</button>
+                    <button class="tab-button" data-filter="m3d" data-translate="tabs.m3d">Modelado 3D</button>
+                    <button class="tab-button" data-filter="a3d" data-translate="tabs.a3d">Animación 3D</button>
+                    <button class="tab-button" data-filter="ui" data-translate="tabs.ui">Diseño de Interfaces (UI/UX)</button>
+                    <button class="tab-button" data-filter="ilustracion" data-translate="tabs.ilustracion">Ilustración Digital y Diseño Gráfico</button>
+                </div>
+
+                <div class="project-grid">
+                    <!-- Proyectos se generarán con JS -->
+                </div>
+            </section>
+
+            <section id="contacto-section" class="content-section">
+                <h2 data-translate="contacto.title">Contacto</h2>
+                <p data-translate="contacto.description">Si desea colaborar, hacer alguna consulta o invitarme a dar una ponencia o taller, no dude en contactarme a traves de <a href="mailto:AlfredAR8@outlook.com">AlfredAR8@outlook.com</a>.</p>
+                <p data-translate="contacto.linkedin">También puedes encontrarme en <a href="https://www.linkedin.com/in/jalfredar" target="_blank">LinkedIn | JAlfredAR</a>.</p>
+            </section>
+        </main>
+    </div> <!-- Fin de .container -->
+
+<!-- Modal para Detalles del Proyecto -->
+<div id="project-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+        <button class="modal-close-btn" aria-label="Cerrar">×</button>
+        <img id="modal-project-image" src="" alt="Imagen del Proyecto" class="modal-project-image-display">
+        <h3 id="modal-project-title"></h3>
+        <div id="modal-project-detailed-description" class="modal-description-scroll">
+            <!-- La descripción detallada se insertará aquí -->
+        </div>
+        <!-- ==== AQUÍ AGREGA EL ELEMENTO PARA EL WARNING ==== -->
+        <p id="modal-project-warning" class="modal-project-warning" style="display: none;"></p>
+        <!-- ================================================== -->
+        <div class="modal-buttons-container">
+            <a id="modal-project-button1" href="#" target="_blank" class="cv-button modal-project-action-button" style="display: none;"></a>
+            <a id="modal-project-button2" href="#" target="_blank" class="cv-button modal-project-action-button" style="display: none;"></a>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
