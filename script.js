@@ -590,6 +590,26 @@ document.addEventListener('DOMContentLoaded', () => {
         "warning": {
             "isVisible": false
         }
+      },
+            {
+        "id": 26,
+        "category": "software",
+        "imageSrc": "perfectpay.png",
+        "title": "Perfect Pay",
+        "description": "Aplicación para android que ayuda a dividir los gastos de algun pago a realizar en conjunto con más personas.",
+        "detailedDescription": "Perfect Pay es una aplicación para Android que facilita dividir y gestionar gastos compartidos entre varias personas. Permite calcular automáticamente cuánto debe pagar cada participante, simplificando la administración y evitando confusiones en pagos conjuntos como viajes, cenas o compras.",
+        "button1": {
+          "text_es": "Ver en la Tienda",
+          "text_en": "View on Store",
+          "link": "https://play.google.com/apps/testing/com.arxbite.perfectpay",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        },
+        "warning": {
+            "isVisible": false
+        }
       }
 ]
   },
@@ -1161,7 +1181,28 @@ document.addEventListener('DOMContentLoaded', () => {
         "warning": {
             "isVisible": false
         }
-      }
+      },
+            {
+  "id": 26,
+  "category": "software",
+  "imageSrc": "perfectpay.png",
+  "title": "Perfect Pay",
+  "description": "Android app that helps split the expenses of the bill to be made together with other people.",
+  "detailedDescription": "Perfect Pay is an Android application that makes it easy to split and manage shared expenses among several people. It allows toautomatically calculating how much each participant should pay, simplifying management and avoiding confusion in joint payments such as trips, dinners, or purchases.",
+  "button1": {
+    "text_es": "Ver en la Tienda",
+    "text_en": "View on Store",
+    "link": "https://play.google.com/apps/testing/com.arxbite.perfectpay",
+    "isVisible": true
+  },
+  "button2": {
+    "isVisible": false
+  },
+  "warning": {
+    "isVisible": false
+  }
+}
+
 ]
   }
 };
