@@ -545,28 +545,6 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         "id": 24,
-        "category": "ui",
-        "imageSrc": "wave.png",
-        "title": "Diseño de ícono para emote de videojuego",
-        "description": "Creé un ícono simple y reconocible para un emote de videojuego, representando una figura en una pose dinámica sobre una tabla de surf.",
-        "detailedDescription": "Diseñé un ícono minimalistapara un emote dentro de un videojuego, capturando la silueta de un personaje en pose activa sobre una tabla de surf, con un estilo limpio y colores vibrantes para asegurar su visibilidad y atractivo en interfaces de juego.",
-        "button1": {
-          "text_es": "Ver en Pantalla Completa",
-          "text_en": "View on Fullscreen",
-          "link": "./full/wave.jpg",
-          "isVisible": true
-        },
-        "button2": {
-          "isVisible": false
-        },
-        "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se cuenta con derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
-        }
-      },
-      {
-        "id": 25,
         "category": "videojuegos",
         "imageSrc": "felino.png",
         "title": "Juego del Felino – Experiencia Inmersiva con Proyección 3D Física y Virtual",
@@ -589,7 +567,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
             {
-        "id": 26,
+        "id": 25,
         "category": "software",
         "imageSrc": "perfectpay.png",
         "title": "Perfect Pay",
@@ -1136,28 +1114,6 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         "id": 24,
-        "category": "ui",
-        "imageSrc": "wave.png",
-        "title": "Icon Design for Video Game Emote",
-        "description": "I created a simple and recognizable icon for a video game emote, representing a figure in a dynamic pose on a surfboard.",
-        "detailedDescription": "I designed a minimalist icon for an in-game emote, capturing the silhouette of a character in an active pose on a surfboard, with a clean style and vibrant colors to ensure its visibility and appeal in game interfaces.",
-        "button1": {
-          "text_es": "Ver en Pantalla Completa",
-          "text_en": "View on Fullscreen",
-          "link": "./full/wave.jpg",
-          "isVisible": true
-        },
-        "button2": {
-          "isVisible": false
-        },
-        "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se cuenta con derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
-        }
-      },
-      {
-        "id": 25,
         "category": "videojuegos",
         "imageSrc": "felino.png",
         "title": "The Feline Game – Immersive Experience with Physical and Virtual 3D Projection",
@@ -1180,7 +1136,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 26,
+        "id": 25,
         "category": "software",
         "imageSrc": "perfectpay.png",
         "title": "Perfect Pay",
