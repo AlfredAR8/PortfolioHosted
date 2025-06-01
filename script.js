@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "titlev2": "José Alfredo Arriaga Rosillo",
       "description": "Soy un profesional con más de 7 años de experiencia en desarrollo de software, videojuegos, diseño y animación 3D, combinando habilidades técnicas y creatividad para crear soluciones innovadoras. Actualmente curso la Ingeniería en Software y Sistemas Computacionales, y participo activamente como instructor y ponente en temas relacionados con realidad virtual, inteligencia artificial y desarrollo de aplicaciones.",
       "cvButton1": "Ver Mi CV | Español",
-      "cvButton2": "Ver Mi CV | Inglés",
+      "cvButton2": "Ver Mi CV | Inglés"
     },
     "proyectos": {
       "title": "Mis Proyectos"
@@ -57,8 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "software",
         "imageSrc": "meetingchecker.png",
         "title": "Meeting Checker",
-        "description": "Aplicación de escritorio (Windows) publicada en Microsoft Store para notificar el inicio de reuniones en Google Meet mediante alertas en Discord.",
-        "detailedDescription": "Una de mis primeras aplicaciones ambiciosas, lanzada en la Microsoft Store y actualmente en proceso de mantenimiento para un posible relanzamiento. Meeting Checker detectaba automáticamente el inicio de reuniones en Google Meet y enviaba notificaciones a través de Discord. Esta herramienta buscaba solucionar la necesidad de recargar constantemente la página de Google Meet cuando el anfitrión aún no había ingresado. Curiosamente, dos semanas tras su lanzamiento, Google implementó una funcionalidad nativa que permitía esperar dentro de la reunión, volviendo obsoleta la función principal de Meeting Checker. Por este motivo, se retiró de la venta, aunque su ficha permanece visible en la Microsoft Store.",
+        "description": "Aplicación de escritorio para Windows, disponible en Microsoft Store, que notifica el inicio de reuniones en Google Meet a través de alertas en Discord.",
+        "detailedDescription": "Una de mis primeras aplicaciones ambiciosas, lanzada en Microsoft Store y actualmente en mantenimiento para un posible relanzamiento. Meeting Checker detectaba automáticamente el inicio de reuniones en Google Meet y enviaba notificaciones a Discord, evitando la necesidad de recargar constantemente la página mientras el anfitrión no ingresaba. Dos semanas después de su lanzamiento, Google implementó la función nativa de espera en la reunión, lo que volvió obsoleta la herramienta. Por este motivo, se retiró de la venta, aunque su ficha sigue visible en la tienda.",
         "button1": {
           "text_es": "Ver en la Tienda",
           "text_en": "View on Store",
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -77,8 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "videojuegos",
         "imageSrc": "skydome.png",
         "title": "SkyDome",
-        "description": "Aplicación inmersiva para Meta Quest, desarrollada en Unreal Engine y disponible en la Meta Quest Store, que transforma el techo de cualquier habitación en un cielo dinámico.",
-        "detailedDescription": "SkyDome es una aplicación de realidad mixta para Meta Quest que redefine el ambiente de cualquier espacio interior. Mediante el escaneo del entorno, identifica el techo de la habitación y proyecta sobre él cielos dinámicos y personalizables, desde noches estrelladas hasta cielos diurnos o imágenes 360° subidas por el usuario. El objetivo de SkyDome es enriquecer la percepción del entorno físico, ofreciendo una ventana a cielos abiertos desde la comodidad de una habitación, oficina o estudio, mejorando así la atmósfera del lugar a través de la realidad extendida.",
+        "description": "Aplicación inmersiva para Meta Quest, desarrollada en Unreal Engine y disponible en Meta Quest Store, que transforma el techo de cualquier habitación en un cielo dinámico.",
+        "detailedDescription": "SkyDome es una aplicación de realidad mixta para Meta Quest que redefine el ambiente interior. Mediante el escaneo del entorno, identifica el techo de la habitación y proyecta sobre él cielos dinámicos y personalizables: desde noches estrelladas hasta paisajes diurnos o imágenes en 360° subidas por el usuario. El objetivo de SkyDome es enriquecer la percepción del entorno físico, ofreciendo una ventana a cielos abiertos desde la comodidad de un espacio cerrado, mejorando así la atmósfera a través de la realidad extendida.",
         "button1": {
           "text_es": "Ver en la Tienda",
           "text_en": "View on Store",
@@ -89,16 +89,16 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
-    {
+      {
         "id": 3,
         "category": "software",
         "imageSrc": "echoinsight.png",
         "title": "Echo Insight",
         "description": "Aplicación para iOS, iPadOS, macOS y visionOS que utiliza IA para analizar playlists y generar recomendaciones musicales personalizadas.",
-        "detailedDescription": "Echo Insight es una aplicación de descubrimiento musical impulsada por inteligencia artificial. Su función principal es analizar el contenido de las playlists favoritas del usuario para ofrecer recomendaciones precisas de canciones y artistas afines a sus gustos. Simplemente compartiendo una playlist, la app procesa la información y genera sugerencias, buscando renovar y enriquecer la experiencia de descubrimiento musical del usuario en el ecosistema Apple.",
+        "detailedDescription": "Echo Insight es una aplicación de descubrimiento musical impulsada por inteligencia artificial. Su función principal es analizar el contenido de las playlists favoritas del usuario para ofrecer sugerencias precisas de canciones y artistas afines a sus gustos. Al compartir una playlist, la app procesa la información y genera recomendaciones que renuevan y enriquecen la experiencia de descubrimiento musical en el ecosistema Apple.",
         "button1": {
           "text_es": "Ver en la Tienda",
           "text_en": "View on Store",
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -129,9 +129,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se cuenta con derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -139,8 +139,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "ilustracion",
         "imageSrc": "warrior.png",
         "title": "Concepto de Skin Reactiva: Guerrero Azteca",
-        "description": "Diseño conceptual de una skin reactiva para personaje de videojuego, que modifica su apariencia y accesorios en tiempo real según acciones o estados del juego.",
-        "detailedDescription": "Desarrollé el concepto para una skin de personaje reactiva, inspirada en la cultura azteca. Esta skin cambia dinámicamente elementos como armadura, accesorios y armas en respuesta a acciones específicas del jugador (activar habilidades, alcanzar estados). El diseño incorpora detalles culturales y simbólicos que enriquecen la narrativa visual, buscando generar una experiencia más envolvente y personalizada dentro del juego.",
+        "description": "Diseño conceptual de una skin reactiva para personaje de videojuego que modifica apariencia y accesorios en tiempo real según acciones o estados del juego.",
+        "detailedDescription": "Desarrollé el concepto para una skin de personaje reactiva, inspirada en la cultura azteca. Esta skin cambia dinámicamente elementos como armadura, accesorios y armas en respuesta a acciones específicas del jugador (activar habilidades, alcanzar cierto estado). El diseño incorpora detalles culturales y simbólicos que enriquecen la narrativa visual, buscando generar una experiencia más envolvente y personalizada dentro del juego.",
         "button1": {
           "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "ilustracion",
         "imageSrc": "strange.png",
         "title": "Ilustración: Doctor Strange en el Multiverso de la Locura",
-        "description": "Ilustración digital inspirada en la película, capturando la esencia mágica y visual del universo Marvel con personajes y elementos clave.",
+        "description": "Ilustración digital inspirada en la película que captura la esencia mágica y visual del universo Marvel con personajes y elementos clave.",
         "detailedDescription": "Realicé una ilustración digital basada en 'Doctor Strange en el Multiverso de la Locura'. En esta pieza, representé a los personajes principales dentro de una escena conceptual que integra elementos visuales y simbólicos característicos de la película. El proyecto se centró en el manejo del color, la composición y los efectos digitales para evocar la atmósfera mágica y multidimensional, demostrando habilidades en ilustración digital aplicada a la cultura pop.",
         "button1": {
           "text_es": "Ver en Pantalla Completa",
@@ -171,12 +171,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
-        },
-        "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Disney ni Marvel, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Marvel content, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Disney ni Marvel, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Marvel content, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -184,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "ilustracion",
         "imageSrc": "slurp.png",
         "title": "Concepto de Skin Reactiva: Monstruo de Slurp",
-        "description": "Diseño conceptual de una skin reactiva para videojuego que evoluciona visualmente con efectos dinámicos en accesorios, cuerpo y movimientos según eventos del juego.",
+        "description": "Diseño conceptual de una skin reactiva que evoluciona visualmente con efectos dinámicos en accesorios, cuerpo y movimientos según eventos del juego.",
         "detailedDescription": "Conceptualicé y diseñé una skin de personaje reactiva con temática de 'Monstruo de Slurp'. Esta skin incorpora efectos visuales dinámicos en accesorios (como calabazas y esferas) y transformaciones en el cuerpo (pies, texturas) que responden a acciones clave como eliminaciones y otros eventos dentro de la partida, ofreciendo una narrativa visual evolutiva y una interacción más inmersiva.",
         "button1": {
           "text_es": "Ver en Pantalla Completa",
@@ -196,9 +193,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se cuenta con derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -206,8 +203,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "ilustracion",
         "imageSrc": "pumpkin.png",
         "title": "Ilustración para NFT: Calabaza Tecnológica",
-        "description": "Diseño de una ilustración digital original para un NFT, presentando una calabaza con un estilo tecnológico y detalles llamativos, orientada al arte coleccionable.",
-        "detailedDescription": "Creé un diseño digital original concebido como un NFT, protagonizado por una 'Calabaza Tecnológica'. La ilustración destaca por un estilo distintivo y detalles minuciosos, pensada para plataformas de arte digital y coleccionables cripto. Este proyecto demuestra habilidades en ilustración digital creativa y una comprensión del emergente mercado de tokens no fungibles.",
+        "description": "Ilustración digital original para un NFT que presenta una calabaza con estilo tecnológico y detalles llamativos, orientada al arte coleccionable.",
+        "detailedDescription": "Creé un diseño digital original concebido como NFT, protagonizado por una 'Calabaza Tecnológica'. La ilustración destaca por un estilo distintivo y detalles minuciosos, pensada para plataformas de arte digital y coleccionables cripto. Este proyecto demuestra habilidades en ilustración creativa y una comprensión del emergente mercado de tokens no fungibles.",
         "button1": {
           "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
@@ -218,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -226,8 +223,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "ui",
         "imageSrc": "clothes.png",
         "title": "Diseño UI para App de Ropa con Avatar 3D",
-        "description": "Diseño de la interfaz de usuario (UI) para una aplicación móvil de e-commerce de moda, permitiendo visualizar y personalizar prendas en un avatar 3D.",
-        "detailedDescription": "Desarrollé el diseño de interfaz para una aplicación móvil de una tienda de ropa. El enfoque principal fue la visualización y personalización de prendas mediante un avatar 3D interactivo, buscando facilitar a los usuarios la exploración y combinación de productos a través de una experiencia intuitiva y visualmente atractiva.",
+        "description": "Diseño de interfaz de usuario para una aplicación móvil de e-commerce de moda, que permite visualizar y personalizar prendas en un avatar 3D.",
+        "detailedDescription": "Desarrollé el diseño de interfaz para una aplicación móvil de tienda de ropa, centrando el concepto en la visualización y personalización de prendas mediante un avatar 3D interactivo. La propuesta buscó ofrecer a los usuarios una experiencia intuitiva y atractiva, facilitando la exploración y combinación de productos de forma dinámica.",
         "button1": {
           "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
@@ -238,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -246,8 +243,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "ui",
         "imageSrc": "icp.png",
         "title": "Diseño UI: Pantalla de Inicio para Videojuego",
-        "description": "Diseño de la interfaz de inicio para una aplicación de juego, con opciones claras de inicio/registro y selección de personajes, mejorando la experiencia de usuario.",
-        "detailedDescription": "Desarrollé el diseño de la pantalla de inicio para una aplicación de juego social, inspirada en la estética de 'Club Penguin Island'. Se integraron funciones de inicio de sesión y registro, junto con una selección visual e interactiva de personajes, priorizando la usabilidad y una estética amigable para una primera impresión atractiva.",
+        "description": "Diseño de la interfaz de inicio para un videojuego social, con opciones de inicio, registro y selección de personajes.",
+        "detailedDescription": "Desarrollé el diseño de la pantalla de inicio para una aplicación de juego social, inspirada en la estética de 'Club Penguin Island'. Se integraron funciones de inicio de sesión y registro, junto con una selección visual e interactiva de personajes, priorizando la usabilidad y una apariencia amigable para causar una primera impresión atractiva.",
         "button1": {
           "text_es": "Ver diseño completo",
           "text_en": "View Full Design",
@@ -258,9 +255,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Club Penguin ni Disney Interactive, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Club Penguin ni Disney Interactive, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -268,8 +265,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "ui",
         "imageSrc": "fortbot.png",
         "title": "Diseño Gráfico para Bot de Noticias de Videojuegos (Fortnite)",
-        "description": "Creación de plantillas gráficas para un bot que genera automáticamente imágenes con noticias y actualizaciones del videojuego Fortnite, optimizadas para redes sociales.",
-        "detailedDescription": "Desarrollé el sistema de diseño gráfico para un bot automatizado encargado de crear y publicar imágenes informativas sobre noticias, actualizaciones y eventos del videojuego Fortnite. Este trabajo incluyó la creación de plantillas y elementos visuales llamativos, con una estructura clara para comunicar eficazmente y de forma atractiva con la comunidad en plataformas digitales.",
+        "description": "Creación de plantillas gráficas para un bot que genera y publica imágenes con noticias y actualizaciones de Fortnite, optimizadas para redes sociales.",
+        "detailedDescription": "Desarrollé el sistema de diseño gráfico para un bot automatizado encargado de crear y publicar imágenes informativas sobre noticias, actualizaciones y eventos de Fortnite. Este trabajo incluyó la creación de plantillas y elementos visuales llamativos, con una estructura clara para comunicar eficazmente y de forma atractiva con la comunidad en plataformas digitales.",
         "button1": {
           "text_es": "Ver diseño completo",
           "text_en": "View Full Design",
@@ -280,9 +277,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se cuenta con derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -290,8 +287,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "a3d",
         "imageSrc": "encanto.png",
         "title": "Animación 3D en Blender: We Don’t Talk About Bruno (Encanto)",
-        "description": "Recreación de una escena de 'Encanto' mediante animación 3D en Blender, enfocada en modelado de personajes y sincronización de movimientos con la música.",
-        "detailedDescription": "Desarrollé una animación 3D completa en Blender inspirada en la canción 'We Don’t Talk About Bruno' de la película 'Encanto'. El proyecto abarcó el modelado, rigging y animación de personajes, con especial atención a la sincronización labial y de movimientos con la música, así como la expresión emocional, demostrando dominio en técnicas de animación digital.",
+        "description": "Recreación de una escena de 'Encanto' mediante animación 3D en Blender, enfocada en modelado de personajes y sincronización con la música.",
+        "detailedDescription": "Desarrollé una animación 3D en Blender inspirada en la canción “We Don’t Talk About Bruno” de la película Encanto. El proyecto abarcó modelado, rigging y animación de personajes, con especial atención a la sincronización labial y de movimientos con la música, así como la expresión emocional, demostrando dominio en técnicas de animación digital.",
         "button1": {
           "text_es": "Ver Video",
           "text_en": "View Video",
@@ -302,9 +299,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Disney ni Club Penguin, incluyendo sus modelos 3D y musica y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Disney ni Club Penguin, incluyendo modelos 3D y música, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -312,8 +309,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "a3d",
         "imageSrc": "hocus.png",
         "title": "Animación 3D en Blender: One Way or Another (Hocus Pocus 2)",
-        "description": "Creación de una animación 3D en Blender basada en un fragmento musical de 'Hocus Pocus 2', aplicando técnicas de rigging y animación para movimientos expresivos.",
-        "detailedDescription": "Realicé una animación 3D detallada en Blender inspirada en un fragmento de la canción 'One Way or Another' de la película 'Hocus Pocus 2'. El trabajo involucró el modelado, rigging y animación de los personajes, centrándome en lograr movimientos naturales y expresivos que capturaran la esencia del material original, demostrando habilidades en producción animada para medios digitales.",
+        "description": "Creación de una animación 3D en Blender basada en un fragmento musical de 'Hocus Pocus 2', aplicando técnicas de rigging y movimientos expresivos.",
+        "detailedDescription": "Realicé una animación 3D en Blender inspirada en un fragmento de la canción ‘One Way or Another’ de la película Hocus Pocus 2. El trabajo involucró modelado, rigging y animación de personajes, con énfasis en lograr movimientos naturales y expresivos que capturaran la esencia del material original. Aunque solo se desarrolló una parte breve de la canción, documenté el avance logrado. Este proyecto no alcanzó la fase de animación de pies ni de expresiones faciales.",
         "button1": {
           "text_es": "Ver Video",
           "text_en": "View Video",
@@ -324,9 +321,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Disney ni Club Penguin, incluyendo sus modelos 3D y musica y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Disney ni Club Penguin, incluyendo modelos 3D y música, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -334,8 +331,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "m3d",
         "imageSrc": "pizza.png",
         "title": "Modelado 3D: Exterior Clásico de Club Penguin",
-        "description": "Recreación mediante modelado 3D detallado del exterior de un edificio icónico de la versión clásica del juego Club Penguin, replicando su estilo característico.",
-        "detailedDescription": "Desarrollé un modelado 3D del exterior de un edificio emblemático de la versión clásica del videojuego Club Penguin. El enfoque fue capturar fielmente sus detalles arquitectónicos y el estilo visual distintivo, utilizando técnicas de modelado y texturizado para recrear una pieza representativa y nostálgica del universo del juego.",
+        "description": "Recreación mediante modelado 3D detallado del exterior de un edificio icónico de la versión clásica de Club Penguin.",
+        "detailedDescription": "Desarrollé un modelado 3D del exterior de un edificio emblemático de la versión clásica de Club Penguin. El enfoque fue capturar fielmente sus detalles arquitectónicos y el estilo visual distintivo, utilizando técnicas de modelado y texturizado para recrear una pieza representativa y nostálgica del universo del juego.",
         "button1": {
           "text_es": "Vista 1",
           "text_en": "View 1",
@@ -346,18 +343,18 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Club Penguin ni Disney Interactive, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Club Penguin ni Disney Interactive, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
         "id": 15,
         "category": "m3d",
         "imageSrc": "intpizza.png",
-        "title": "Modelado 3D: Interior de Pizzería",
-        "description": "Creación de un modelado 3D detallado del interior de una pizzería, incluyendo mobiliario, decoración y elementos característicos para un ambiente realista.",
-        "detailedDescription": "Desarrollé un modelado 3D completo del interior de una pizzería. Este proyecto integró detalles como mesas, sillas, barra, horno y elementos decorativos, prestando especial atención a la distribución espacial y al realismo visual. Se utilizaron técnicas de modelado y texturizado para crear un ambiente acogedor y representativo del establecimiento.",
+        "title": "Modelado 3D: Interior de Pizzería de Club Penguin",
+        "description": "Creación de un modelado 3D detallado del interior de la pizzería icónica de Club Penguin, incluyendo mobiliario y elementos característicos.",
+        "detailedDescription": "Desarrollé un modelado 3D completo del interior de la pizzería icónica de Club Penguin. Este proyecto integró detalles como mesas, sillas, barra, horno y elementos decorativos, prestando especial atención a la distribución espacial y al realismo visual. Se emplearon técnicas de modelado y texturizado para crear un ambiente acogedor y representativo del establecimiento.",
         "button1": {
           "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
@@ -368,9 +365,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Club Penguin ni Disney Interactive, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Club Penguin ni Disney Interactive, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -378,8 +375,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "m3d",
         "imageSrc": "deadlock.png",
         "title": "Render de Skin Conceptual para Fortnite: Texturizado y Partículas",
-        "description": "Proceso completo de texturizado, aplicación de efectos de partículas y renderizado para un concepto de skin de Fortnite con estilo futurista.",
-        "detailedDescription": "Desarrollé el texturizado detallado, la integración de efectos de partículas (como energía y hologramas) y el renderizado final para una skin conceptual original para Fortnite. El objetivo fue crear un diseño visualmente impactante y coherente con una estética futurista, incluyendo la creación de texturas personalizadas, efectos luminosos y una presentación realista para destacar la estética del personaje.",
+        "description": "Desarrollo de texturizado, efectos de partículas y renderizado para un concepto de skin de Fortnite con estilo futurista.",
+        "detailedDescription": "Realicé el texturizado detallado, la integración de efectos de partículas (como energía y hologramas) y el renderizado final para una skin conceptual original de Fortnite. El objetivo fue crear un diseño visualmente impactante y coherente con una estética futurista, incluyendo texturas personalizadas, efectos luminosos y una presentación realista para destacar la estética del personaje.",
         "button1": {
           "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
@@ -390,9 +387,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se cuenta con derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -400,8 +397,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "a3d",
         "imageSrc": "surf.png",
         "title": "Animación Conceptual de Skin para Fortnite",
-        "description": "Creación de una animación conceptual básica para una skin de Fortnite, mostrando movimientos y poses clave para visualizar la dinámica del personaje.",
-        "detailedDescription": "Desarrollé una animación conceptual breve para una skin de Fortnite. El enfoque fue mostrar movimientos esenciales y poses características que permitieran visualizar la dinámica y el estilo del personaje. Se utilizaron técnicas de animación 3D para presentar un concepto inicial, sirviendo como base para un posible desarrollo más avanzado.",
+        "description": "Creación de una animación conceptual básica para una skin de Fortnite, mostrando movimientos y poses clave del personaje.",
+        "detailedDescription": "Desarrollé una animación conceptual breve para una skin de Fortnite. El enfoque fue mostrar movimientos esenciales y poses características que permitieran visualizar la dinámica y el estilo del personaje. Se emplearon técnicas de animación 3D para presentar un concepto inicial que sirviera como base para un posible desarrollo más avanzado.",
         "button1": {
           "text_es": "Ver Video",
           "text_en": "View Video",
@@ -412,9 +409,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se cuenta con derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -422,8 +419,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "m3d",
         "imageSrc": "jonesy.png",
         "title": "Modelado y Edición 3D: Concepto de Skin para Fortnite",
-        "description": "Desarrollo de modelado y edición 3D para un concepto de skin de Fortnite, centrado en la pose, detalles y ambientación del personaje.",
-        "detailedDescription": "Realicé el modelado y la edición 3D para una skin conceptual de Fortnite. Este trabajo se enfocó en la representación visual del personaje en un entorno que resalta su pose relajada y estilo único, utilizando técnicas de modelado, texturizado y composición para presentar una idea atractiva y coherente dentro del posible universo del juego.",
+        "description": "Desarrollo de modelado y edición 3D para un concepto de skin de Fortnite, centrado en pose, detalles y ambientación del personaje.",
+        "detailedDescription": "Realicé el modelado y la edición 3D para una skin conceptual de Fortnite. El trabajo se enfocó en la representación visual del personaje en un entorno playero que resaltara su pose relajada y estilo único, aplicando técnicas de modelado, texturizado y composición para presentar una propuesta coherente y atractiva.",
         "button1": {
           "text_es": "Ver el diseño completo",
           "text_en": "View Full Design",
@@ -434,9 +431,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se cuenta con derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -444,8 +441,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "m3d",
         "imageSrc": "reprogrammer.png",
         "title": "Diseño Conceptual de Skin: The Reprogrammer (Fortnite)",
-        "description": "Creación de un diseño conceptual completo para la skin 'The Reprogrammer' de Fortnite, integrando elementos visuales tecnológicos y efectos holográficos.",
-        "detailedDescription": "Desarrollé un diseño conceptual detallado para la skin 'The Reprogrammer', imaginada para Fortnite e inspirada en temas de tecnología y reprogramación digital. El concepto incluye el personaje, accesorios, efectos holográficos y una estética futurista, con énfasis en la interacción visual y la coherencia temática para enriquecer la experiencia del jugador.",
+        "description": "Creación de un diseño conceptual completo para la skin 'The Reprogrammer' de Fortnite, con elementos visuales tecnológicos y holográficos.",
+        "detailedDescription": "Desarrollé un diseño conceptual detallado para la skin 'The Reprogrammer', imaginada para Fortnite e inspirada en temáticas de tecnología y reprogramación digital. El concepto abarca el personaje, sus accesorios, efectos holográficos y una estética futurista, con énfasis en la interacción visual y la coherencia temática para enriquecer la experiencia del jugador.",
         "button1": {
           "text_es": "Ver el diseño completo",
           "text_en": "View Full Design",
@@ -456,9 +453,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se cuenta con derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -466,8 +463,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "videojuegos",
         "imageSrc": "cpgame.png",
         "title": "Proyecto Conceptual 3D: Club Penguin en Unreal Engine 5",
-        "description": "Desarrollo de un prototipo conceptual de Club Penguin utilizando Unreal Engine 5, explorando la recreación y modernización visual del juego clásico.",
-        "detailedDescription": "Creé un proyecto conceptual en 3D de Club Penguin utilizando Unreal Engine 5. El objetivo fue la recreación fiel del entorno y personajes clásicos con un apartado gráfico moderno. Este proyecto exploró técnicas avanzadas de modelado, iluminación y shaders para actualizar visualmente el universo original, buscando mantener su esencia y estilo reconocible mientras se aprovechaban las capacidades de UE5.",
+        "description": "Desarrollo de un prototipo conceptual en 3D de Club Penguin usando Unreal Engine 5, explorando la modernización visual del juego clásico.",
+        "detailedDescription": "Creé un proyecto conceptual en 3D de Club Penguin utilizando Unreal Engine 5, con el objetivo de recrear fielmente los entornos y personajes clásicos mediante un apartado gráfico moderno. El proyecto exploró técnicas avanzadas de modelado, iluminación y shaders para actualizar visualmente el universo original, manteniendo su esencia y estilo reconocible. Además, se implementó un sistema de inicio de sesión con base de datos y funcionalidad multijugador a través de un servidor dedicado. Este trabajo fue un ejercicio de aprendizaje y no tuvo fines comerciales.",
         "button1": {
           "text_es": "Ver Video",
           "text_en": "View Video",
@@ -478,41 +475,41 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Club Penguin ni Disney Interactive, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Club Penguin ni Disney Interactive, y se respetaron todos los términos de uso aplicables.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
         "id": 21,
         "category": "videojuegos",
         "imageSrc": "viewworlds.png",
-        "title": "Videojuego Educativo VR/Escritorio: “View Worlds”",
-        "description": "Diseño y desarrollo individual de una aplicación educativa multiplataforma (VR y escritorio) que combina exploración interactiva y gamificación.",
-        "detailedDescription": "Realicé de manera integral el diseño y desarrollo de “View Worlds”, una aplicación educativa concebida inicialmente para Realidad Virtual y posteriormente adaptada a plataformas de escritorio. Implementé mecánicas interactivas donde los estudiantes exploran entornos inmersivos, responden preguntas y recolectan llaves para desbloquear niveles, fomentando el aprendizaje activo. Se incorporaron elementos de gamificación para motivar la participación, utilizando Unreal Engine 4 para una experiencia visual fluida y atractiva.",
+        "title": "Videojuego Educativo VR/Escritorio: View Worlds",
+        "description": "Aplicación educativa multiplataforma (VR y escritorio) que combina exploración interactiva y gamificación para el aprendizaje activo.",
+        "detailedDescription": "Realicé el diseño y desarrollo integral de 'View Worlds', una aplicación educativa concebida inicialmente para realidad virtual y luego adaptada a escritorio. Implementé mecánicas interactivas donde los estudiantes exploran entornos inmersivos, responden preguntas y recolectan llaves para desbloquear niveles, fomentando el aprendizaje activo. Se incorporaron elementos de gamificación para motivar la participación, utilizando Unreal Engine 4 para ofrecer una experiencia visual fluida y atractiva.",
         "button1": {
-          "text_es": "Jugabilidad (Juego VR) ",
+          "text_es": "Jugabilidad (Juego VR)",
           "text_en": "Gameplay (VR Game)",
           "link": "./full/view.mp4",
           "isVisible": true
         },
         "button2": {
-          "text_es": "Imagen(Juego Educativo)",
+          "text_es": "Imagen (Juego Educativo)",
           "text_en": "Image (Educational Game)",
           "link": "./full/worlds.png",
           "isVisible": true
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
         "id": 22,
         "category": "ui",
         "imageSrc": "school.png",
-        "title": "Diseño de interfaz para calendario escolar interactivo",
-        "description": "Diseñé la interfaz de usuario para un calendario escolar que organiza clases, horarios y detalles importantes con una presentación clara y accesible.",
-        "detailedDescription": "Desarrollé el diseño de interfaz para un calendario escolar digital, facilitando la gestión visual de clases, horarios, profesores y descansos. La interfaz prioriza la claridad y facilidad de uso, permitiendo a los estudiantes navegar rápidamente entre fechas y obtener detalles específicos de cada materia, mejorando la planificación académica y la experiencia del usuario.",
+        "title": "Diseño de Interfaz para Calendario Escolar Interactivo",
+        "description": "Diseño de interfaz para un calendario escolar digital que organiza clases, horarios y detalles con una presentación clara y accesible.",
+        "detailedDescription": "Desarrollé la interfaz de usuario para un calendario escolar digital, facilitando la gestión visual de clases, horarios, profesores y recesos. La interfaz prioriza la claridad y facilidad de uso, permitiendo a los estudiantes navegar rápidamente entre fechas y acceder a detalles específicos de cada materia, mejorando la planificación académica y la experiencia general.",
         "button1": {
           "text_es": "Ver el diseño completo",
           "text_en": "View Full Design",
@@ -523,16 +520,16 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
         "id": 23,
         "category": "ui",
         "imageSrc": "secure.png",
-        "title": "Diseño de interfaz para aplicación de transferencia segura de archivos",
-        "description": "Diseñé la interfaz de usuario para una app que permite compartir fotos y archivos con cifrado, asegurando la privacidad y facilidad de uso.",
-        "detailedDescription": "Desarrollé el diseño de interfaz para una aplicación móvil enfocada en la transferencia segura y cifrada de fotos y archivos, integrando funcionalidades intuitivas para enviar y recibir contenido, gestión de claves seguras y mensajería privada, garantizando una experiencia amigable y protegida para el usuario.",
+        "title": "Diseño de Interfaz para Aplicación de Transferencia Segura de Archivos",
+        "description": "Diseño de la interfaz de usuario para una app que permite compartir fotos y archivos con cifrado, asegurando privacidad y facilidad de uso.",
+        "detailedDescription": "Desarrollé el diseño de interfaz para una aplicación móvil enfocada en la transferencia segura y cifrada de fotos y archivos. Se integraron funcionalidades intuitivas para enviar y recibir contenido, gestión de claves seguras y mensajería privada, garantizando una experiencia amigable y protegida para el usuario.",
         "button1": {
           "text_es": "Ver el diseño completo",
           "text_en": "View Full Design",
@@ -543,29 +540,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
-        }
-      },
-      {
-        "id": 24,
-        "category": "ui",
-        "imageSrc": "wave.png",
-        "title": "Diseño de ícono para emote de videojuego",
-        "description": "Creé un ícono simple y reconocible para un emote de videojuego, representando una figura en una pose dinámica sobre una tabla de surf.",
-        "detailedDescription": "Diseñé un ícono minimalista para un emote dentro de un videojuego, capturando la silueta de un personaje en pose activa sobre una tabla de surf, con un estilo limpio y colores vibrantes para asegurar su visibilidad y atractivo en interfaces de juego.",
-        "button1": {
-          "text_es": "Ver en Pantalla Completa",
-          "text_en": "View on Fullscreen",
-          "link": "./full/wave.jpg",
-          "isVisible": true
-        },
-        "button2": {
           "isVisible": false
-        },
-        "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se cuenta con derechos sobre los contenidos originales de Fortnite ni sus modelos, y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
         }
       },
       {
@@ -573,8 +548,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "videojuegos",
         "imageSrc": "felino.png",
         "title": "Juego del Felino – Experiencia Inmersiva con Proyección 3D Física y Virtual",
-        "description": "Juego innovador que combina un espacio físico real con proyecciones tridimensionales digitales usando dos proyectores, creando una experiencia inmersiva donde lo tangible y lo virtual interactúan en tiempo real.",
-        "detailedDescription": "El Juego del Felino es una experiencia inmersiva que fusiona el entorno físico y virtual a través del uso de dos proyectores que proyectan imágenes tridimensionales sobre una estructura física. Esta combinación permite a los jugadores interactuar con elementos reales y digitales simultáneamente, brindando una sensación única de profundidad y presencia. Mediante tecnología avanzada de proyección y sincronización, el juego crea un espacio donde los límites entre lo tangible y lo virtual se desdibujan, ofreciendo una experiencia multisensorial envolvente. Los usuarios pueden explorar y participar activamente en un entorno que mezcla arte, tecnología y juego, ideal para aplicaciones educativas, culturales o recreativas que buscan innovar en la forma de interacción con contenidos digitales.",
+        "description": "Proyecto que combina un espacio físico real con proyecciones tridimensionales digitales para crear una experiencia inmersiva donde lo tangible y lo virtual interactúan en tiempo real.",
+        "detailedDescription": "El Juego del Felino es una experiencia inmersiva que fusiona el entorno físico y virtual a través de dos proyectores que muestran imágenes tridimensionales sobre una estructura real. Esta combinación permite a los jugadores interactuar con elementos reales y digitales simultáneamente, brindando una sensación única de profundidad y presencia. Mediante tecnología avanzada de proyección y sincronización, el juego crea un espacio donde los límites entre lo tangible y lo virtual se desdibujan, ofreciendo una experiencia multisensorial envolvente. Ideal para aplicaciones educativas, culturales o recreativas que buscan innovar en la forma de interacción con contenidos digitales.",
         "button1": {
           "text_es": "Ver Video",
           "text_en": "View Video",
@@ -588,16 +563,16 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": true
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
-            {
+      {
         "id": 26,
         "category": "software",
         "imageSrc": "perfectpay.png",
         "title": "Perfect Pay",
-        "description": "Aplicación para android que ayuda a dividir los gastos de algun pago a realizar en conjunto con más personas.",
-        "detailedDescription": "Perfect Pay es una aplicación para Android que facilita dividir y gestionar gastos compartidos entre varias personas. Permite calcular automáticamente cuánto debe pagar cada participante, simplificando la administración y evitando confusiones en pagos conjuntos como viajes, cenas o compras.",
+        "description": "Aplicación para Android que facilita dividir y gestionar gastos compartidos entre varias personas.",
+        "detailedDescription": "Perfect Pay es una aplicación para Android diseñada para simplificar la división y gestión de gastos compartidos. Calcula automáticamente cuánto debe pagar cada participante, evitando confusiones en situaciones como viajes, cenas o compras grupales. Actualmente se encuentra en fase de beta cerrada, con planes próximos de lanzamiento.",
         "button1": {
           "text_es": "Ver en la Tienda",
           "text_en": "View on Store",
@@ -608,10 +583,10 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       }
-]
+    ]
   },
   "en": {
     "pageTitle": "Alfredo Arriaga - Portfolio",
@@ -654,7 +629,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Desktop application (Windows) published on the Microsoft Store to notify the start of Google Meet meetings via Discord alerts.",
         "detailedDescription": "One of my first ambitious applications, launched on the Microsoft Store and currently undergoing maintenance for a possible relaunch. Meeting Checker automatically detected the start of Google Meet meetings and sent notifications via Discord. This tool aimed to solve the need to constantly reload the Google Meet page when the host had not yet joined. Interestingly, two weeks after its launch, Google implemented a native feature that allowed waiting inside the meeting, rendering Meeting Checker's main function obsolete. For this reason, it was withdrawn from sale, although its listing remains visible on the Microsoft Store.",
         "button1": {
-          "text_es": "Ver en ",
+          "text_es": "Ver en la Tienda",
           "text_en": "View on Store",
           "link": "https://apps.microsoft.com/store/detail/meeting-checker/9PBRFC6L0S8X",
           "isVisible": true
@@ -663,7 +638,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -674,7 +649,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Immersive application for Meta Quest, developed in Unreal Engine and available on the Meta Quest Store, that transforms the ceiling of any room into a dynamic sky.",
         "detailedDescription": "SkyDome is a mixed reality application for Meta Quest that redefines the ambiance of any indoor space. By scanning the environment, it identifies the room's ceiling and projects dynamic and customizable skies onto it, from starry nights to daytime skies or user-uploaded 360° images. SkyDome's goal is to enrich the perception of the physical environment, offering a window to open skies from the comfort of a room, office, or studio, thereby enhancing the place's atmosphere through extended reality.",
         "button1": {
-          "text_es": "View on Store",
+          "text_es": "Ver en la Tienda",
           "text_en": "View on Store",
           "link": "https://www.meta.com/experiences/7103415146361501/",
           "isVisible": true
@@ -683,10 +658,10 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
-    {
+      {
         "id": 3,
         "category": "software",
         "imageSrc": "echoinsight.png",
@@ -694,7 +669,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Application for iOS, iPadOS, macOS, and visionOS that uses AI to analyze playlists and generate personalized music recommendations.",
         "detailedDescription": "Echo Insight is an AI-powered music discovery application. Its main function is to analyze the content of the user's favorite playlists to offer precise recommendations of songs and artists similar to their tastes. By simply sharing a playlist, the app processes the information and generates suggestions, aiming to renew and enrich the user's music discovery experience within the Apple ecosystem.",
         "button1": {
-          "text_es": "View on Store",
+          "text_es": "Ver en la Tienda",
           "text_en": "View on Store",
           "link": "https://apps.apple.com/mx/app/echo-insight/id6657958000",
           "isVisible": true
@@ -703,7 +678,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -714,7 +689,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Development of Node.js bots to automate the publication of visual content and Fortnite updates on Twitter, using public APIs.",
         "detailedDescription": "I created a series of Node.js bots specialized in disseminating news about Fortnite. These bots monitored public APIs to detect game updates (new cosmetics, events, shop changes) and, upon identifying new information, automatically generated images optimized for social media, publishing them on a Twitter account. Each bot focused on a specific type of content, working coordinately to offer immediate and visually attractive information, maintaining an active and professional presence without constant manual intervention.",
         "button1": {
-          "text_es": "View code",
+          "text_es": "Ver código",
           "text_en": "View code",
           "link": "https://github.com/AlfredAR8/Portfolio/tree/main/Bots",
           "isVisible": true
@@ -723,9 +698,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -736,7 +711,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Conceptual design of a reactive skin for a video game character, which modifies its appearance and accessories in real-time according to game actions or states.",
         "detailedDescription": "I developed the concept for a reactive character skin, inspired by Aztec culture. This skin dynamically changes elements such as armor, accessories, and weapons in response to specific player actions (activating abilities, reaching states). The design incorporates cultural and symbolic details that enrich the visual narrative, aiming to generate a more immersive and personalized experience within the game.",
         "button1": {
-          "text_es": "View on Fullscreen",
+          "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
           "link": "./full/warrior.png",
           "isVisible": true
@@ -745,7 +720,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -756,7 +731,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Digital illustration inspired by the movie, capturing the magical and visual essence of the Marvel universe with key characters and elements.",
         "detailedDescription": "I created a digital illustration based on 'Doctor Strange in the Multiverse of Madness'. In this piece, I depicted the main characters within a conceptual scene that integrates visual and symbolic elements characteristic of the film. The project focused on color management, composition, and digital effects to evoke the magical and multidimensional atmosphere, demonstrating skills in digital illustration applied to pop culture.",
         "button1": {
-          "text_es": "View on Fullscreen",
+          "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
           "link": "./full/strange.png",
           "isVisible": true
@@ -765,9 +740,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Marvel content, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Marvel content, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Marvel content, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Marvel content, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -778,7 +753,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Conceptual design of a reactive video game skin that visually evolves with dynamic effects on accessories, body, and movements according to game events.",
         "detailedDescription": "I conceptualized and designed a reactive character skin with a 'Slurp Monster' theme. This skin incorporates dynamic visual effects on accessories (such as pumpkins and spheres) and transformations on the body (feet, textures) that respond to key actions like eliminations and other in-game events, offering an evolving visual narrative and a more immersive interaction.",
         "button1": {
-          "text_es": "View on Fullscreen",
+          "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
           "link": "./full/slurp.jpg",
           "isVisible": true
@@ -787,9 +762,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -800,7 +775,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Design of an original digital illustration for an NFT, featuring a pumpkin with a technological style and striking details, aimed at collectible art.",
         "detailedDescription": "I created an original digital design conceived as an NFT, starring a 'Tech Pumpkin'. The illustration stands out for its distinctive style and meticulous details, designed for digital art platforms and crypto collectibles. This project demonstrates skills in creative digital illustration and an understanding of the emerging non-fungible token market.",
         "button1": {
-          "text_es": "View on Fullscreen",
+          "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
           "link": "./full/pumpkin.jpg",
           "isVisible": true
@@ -809,7 +784,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -820,7 +795,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "User interface (UI) design for a mobile fashion e-commerce application, allowing visualization and customization of garments on a 3D avatar.",
         "detailedDescription": "I developed the interface design for a mobile application for a clothing store. The main focus was the visualization and customization of garments using an interactive 3D avatar, aiming to facilitate users' exploration and combination of products through an intuitive and visually appealing experience.",
         "button1": {
-          "text_es": "View on Fullscreen",
+          "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
           "link": "./full/clothing.png",
           "isVisible": true
@@ -829,7 +804,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -840,7 +815,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Design of the start screen interface for a game application, with clear login/registration options and character selection, improving the user experience.",
         "detailedDescription": "I developed the start screen design for a social gaming application, inspired by the aesthetics of 'Club Penguin Island'. Login and registration functions were integrated, along with a visual and interactive character selection, prioritizing usability and a friendly aesthetic for an attractive first impression.",
         "button1": {
-          "text_es": "View Full Design",
+          "text_es": "Ver diseño completo",
           "text_en": "View Full Design",
           "link": "./full/cplogin.pdf",
           "isVisible": true
@@ -849,9 +824,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -862,7 +837,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Creation of graphic templates for a bot that automatically generates images with news and updates from the Fortnite video game, optimized for social media.",
         "detailedDescription": "I developed the graphic design system for an automated bot responsible for creating and publishing informative images about news, updates, and events of the Fortnite video game. This work included the creation of templates and eye-catching visual elements, with a clear structure to communicate effectively and attractively with the community on digital platforms.",
         "button1": {
-          "text_es": "View Full Design",
+          "text_es": "Ver diseño completo",
           "text_en": "View Full Design",
           "link": "./full/fortbot.pdf",
           "isVisible": true
@@ -871,9 +846,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -884,7 +859,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Recreation of a scene from 'Encanto' using 3D animation in Blender, focused on character modeling and synchronization of movements with music.",
         "detailedDescription": "I developed a complete 3D animation in Blender inspired by the song 'We Don’t Talk About Bruno' from the movie 'Encanto'. The project encompassed character modeling, rigging, and animation, with special attention to lip-sync and movement synchronization with the music, as well as emotional expression, demonstrating mastery in digital animation techniques.",
         "button1": {
-          "text_es": "View Video",
+          "text_es": "Ver Video",
           "text_en": "View Video",
           "link": "./full/encanto.mp4",
           "isVisible": true
@@ -893,9 +868,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -904,9 +879,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "imageSrc": "hocus.png",
         "title": "3D Animation in Blender: One Way or Another (Hocus Pocus 2)",
         "description": "Creation of a 3D animation in Blender based on a musical fragment from 'Hocus Pocus 2', applying rigging and animation techniques for expressive movements.",
-        "detailedDescription": "I created a detailed 3D animation in Blender inspired by a fragment of the song 'One Way or Another' from the movie 'Hocus Pocus 2'. The work involved modeling, rigging, and animating the characters, focusing on achieving natural and expressive movements that captured the essence of the original material, demonstrating skills in animated production for digital media.",
+        "detailedDescription": "I created a detailed 3D animation in Blender inspired by a fragment of the song 'One Way or Another' from the movie 'Hocus Pocus 2'. The work involved modeling, rigging, and animating the characters, focusing on achieving natural and expressive movements that captured the essence of the original material. Although only a short part of the song was developed, I documented the progress made. This project did not reach the foot animation or facial expression phase.",
         "button1": {
-          "text_es": "View Video",
+          "text_es": "Ver Video",
           "text_en": "View Video",
           "link": "./full/hocus.mp4",
           "isVisible": true
@@ -915,9 +890,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -928,7 +903,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Detailed 3D modeling recreation of the exterior of an iconic building from the classic version of the Club Penguin game, replicating its characteristic style.",
         "detailedDescription": "I developed a 3D model of the exterior of an emblematic building from the classic version of the Club Penguin video game. The focus was to faithfully capture its architectural details and distinctive visual style, using modeling and texturing techniques to recreate a representative and nostalgic piece from the game's universe.",
         "button1": {
-          "text_es": "View 1",
+          "text_es": "Vista 1",
           "text_en": "View 1",
           "link": "./full/pizza.pdf",
           "isVisible": true
@@ -937,20 +912,20 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
         "id": 15,
         "category": "m3d",
         "imageSrc": "intpizza.png",
-        "title": "3D Modeling: Pizzeria Interior",
-        "description": "Creation of a detailed 3D model of a pizzeria interior, including furniture, decoration, and characteristic elements for a realistic atmosphere.",
-        "detailedDescription": "I developed a complete 3D model of a pizzeria interior. This project integrated details such as tables, chairs, a counter, an oven, and decorative elements, paying special attention to spatial distribution and visual realism. Modeling and texturing techniques were used to create a cozy and representative atmosphere of the establishment.",
+        "title": "3D Modeling: Club Penguin Pizzeria Interior",
+        "description": "Creation of a detailed 3D model of the iconic Club Penguin pizzeria interior, including furniture and characteristic elements.",
+        "detailedDescription": "I developed a complete 3D model of the iconic Club Penguin pizzeria interior. This project integrated details such as tables, chairs, a counter, an oven, and decorative elements, paying special attention to spatial distribution and visual realism. Modeling and texturing techniques were used to create a cozy and representative atmosphere of the establishment.",
         "button1": {
-          "text_es": "View on Fullscreen",
+          "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
           "link": "./full/pizzain.png",
           "isVisible": true
@@ -959,9 +934,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -972,7 +947,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Complete process of texturing, particle effects application, and rendering for a Fortnite skin concept with a futuristic style.",
         "detailedDescription": "I developed the detailed texturing, integration of particle effects (such as energy and holograms), and final rendering for an original conceptual skin for Fortnite. The goal was to create a visually impactful and coherent design with a futuristic aesthetic, including the creation of custom textures, lighting effects, and a realistic presentation to highlight the character's aesthetics.",
         "button1": {
-          "text_es": "View on Fullscreen",
+          "text_es": "Ver en Pantalla Completa",
           "text_en": "View on Fullscreen",
           "link": "./full/deadlock.jpg",
           "isVisible": true
@@ -981,9 +956,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -994,7 +969,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Creation of a basic conceptual animation for a Fortnite skin, showing key movements and poses to visualize the character's dynamics.",
         "detailedDescription": "I developed a brief conceptual animation for a Fortnite skin. The focus was to show essential movements and characteristic poses that allowed visualizing the character's dynamics and style. 3D animation techniques were used to present an initial concept, serving as a basis for possible more advanced development.",
         "button1": {
-          "text_es": "View Video",
+          "text_es": "Ver Video",
           "text_en": "View Video",
           "link": "./full/surf.mp4",
           "isVisible": true
@@ -1003,9 +978,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -1016,7 +991,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Development of 3D modeling and editing for a Fortnite skin concept, focused on the character's pose, details, and ambiance.",
         "detailedDescription": "I performed the 3D modeling and editing for a conceptual Fortnite skin. This work focused on the visual representation of the character in an environment that highlights its relaxed pose and unique style, using modeling, texturing, and composition techniques to present an attractive and coherent idea within the possible game universe.",
         "button1": {
-          "text_es": "View Full Design",
+          "text_es": "Ver el diseño completo",
           "text_en": "View Full Design",
           "link": "./full/jonesy.mp4",
           "isVisible": true
@@ -1025,9 +1000,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -1038,7 +1013,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Creation of a complete conceptual design for 'The Reprogrammer' Fortnite skin, integrating technological visual elements and holographic effects.",
         "detailedDescription": "I developed a detailed conceptual design for 'The Reprogrammer' skin, envisioned for Fortnite and inspired by themes of technology and digital reprogramming. The concept includes the character, accessories, holographic effects, and a futuristic aesthetic, with an emphasis on visual interaction and thematic coherence to enrich the player's experience.",
         "button1": {
-          "text_es": "View Full Design",
+          "text_es": "Ver el diseño completo",
           "text_en": "View Full Design",
           "link": "./full/reprogrammer.pdf",
           "isVisible": true
@@ -1047,9 +1022,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -1058,9 +1033,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "imageSrc": "cpgame.png",
         "title": "3D Conceptual Project: Club Penguin in Unreal Engine 5",
         "description": "Development of a conceptual prototype of Club Penguin using Unreal Engine 5, exploring the recreation and visual modernization of the classic game.",
-        "detailedDescription": "I created a 3D conceptual project of Club Penguin using Unreal Engine 5. The objective was the faithful recreation of the classic environment and characters with modern graphics. This project explored advanced modeling, lighting, and shader techniques to visually update the original universe, aiming to maintain its essence and recognizable style while leveraging UE5's capabilities.",
+        "detailedDescription": "I created a 3D conceptual project of Club Penguin using Unreal Engine 5. The objective was the faithful recreation of the classic environment and characters with modern graphics. This project explored advanced modeling, lighting, and shader techniques to visually update the original universe, aiming to maintain its essence and recognizable style while leveraging UE5's capabilities. Additionally, a login system with a database and multiplayer functionality via a dedicated server was implemented. This work was a learning exercise and had no commercial purpose.",
         "button1": {
-          "text_es": "View Video",
+          "text_es": "Ver Video",
           "text_en": "View Video",
           "link": "./full/cpgame.mp4",
           "isVisible": true
@@ -1069,9 +1044,9 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
-            "isVisible": true
+          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Club Penguin or Disney Interactive content, and all applicable terms of use were adhered to.",
+          "isVisible": true
         }
       },
       {
@@ -1079,22 +1054,22 @@ document.addEventListener('DOMContentLoaded', () => {
         "category": "videojuegos",
         "imageSrc": "viewworlds.png",
         "title": "Educational VR/Desktop Video Game: “View Worlds”",
-        "description": "Individual design and development of a multiplatform educational application (VR and desktop) that combines interactive exploration and gamification.",
+        "description": "Multiplatform educational application (VR and desktop) that combines interactive exploration and gamification for active learning.",
         "detailedDescription": "I carried out the comprehensive design and development of “View Worlds”, an educational application initially conceived for Virtual Reality and later adapted to desktop platforms. I implemented interactive mechanics where students explore immersive environments, answer questions, and collect keys to unlock levels, promoting active learning. Gamification elements were incorporated to motivate participation, using Unreal Engine 4 for a fluid and attractive visual experience.",
         "button1": {
-          "text_es": "Gameplay (VR Game)",
+          "text_es": "Jugabilidad (Juego VR)",
           "text_en": "Gameplay (VR Game)",
           "link": "./full/view.mp4",
           "isVisible": true
         },
         "button2": {
-          "text_es": "Image (Educational Game)",
+          "text_es": "Imagen (Juego Educativo)",
           "text_en": "Image (Educational Game)",
           "link": "./full/worlds.png",
           "isVisible": true
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -1105,7 +1080,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "I designed the user interface for a school calendar that organizes classes, schedules, and important details with a clear and accessible presentation.",
         "detailedDescription": "I developed the interface design for a digital school calendar, facilitating the visual management of classes, schedules, teachers, and breaks. The interface prioritizes clarity and ease of use, allowing students to quickly navigate between dates and obtain specific details for each subject, improving academic planning and user experience.",
         "button1": {
-          "text_es": "View Full Design",
+          "text_es": "Ver el diseño completo",
           "text_en": "View Full Design",
           "link": "./full/school.pdf",
           "isVisible": true
@@ -1114,7 +1089,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
       {
@@ -1125,7 +1100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "I designed the user interface for an app that allows sharing photos and files with encryption, ensuring privacy and ease of use.",
         "detailedDescription": "I developed the interface design for a mobile application focused on the secure and encrypted transfer of photos and files, integrating intuitive functionalities for sending and receiving content, secure key management, and private messaging, ensuring a friendly and protected user experience.",
         "button1": {
-          "text_es": "View Full Design",
+          "text_es": "Ver el diseño completo",
           "text_en": "View Full Design",
           "link": "./full/secure.pdf",
           "isVisible": true
@@ -1134,29 +1109,7 @@ document.addEventListener('DOMContentLoaded', () => {
           "isVisible": false
         },
         "warning": {
-            "isVisible": false
-        }
-      },
-      {
-        "id": 24,
-        "category": "ui",
-        "imageSrc": "wave.png",
-        "title": "Icon Design for Video Game Emote",
-        "description": "I created a simple and recognizable icon for a video game emote, representing a figure in a dynamic pose on a surfboard.",
-        "detailedDescription": "I designed a minimalist icon for an emote within a video game, capturing the silhouette of a character in an active pose on a surfboard, with a clean style and vibrant colors to ensure its visibility and appeal in game interfaces.",
-        "button1": {
-          "text_es": "View on Fullscreen",
-          "text_en": "View on Fullscreen",
-          "link": "./full/wave.jpg",
-          "isVisible": true
-        },
-        "button2": {
           "isVisible": false
-        },
-        "warning": {
-            "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Fortnite content or models, and all applicable terms of use were adhered to.",
-            "isVisible": true
         }
       },
       {
@@ -1167,45 +1120,44 @@ document.addEventListener('DOMContentLoaded', () => {
         "description": "Innovative game that combines a real physical space with digital three-dimensional projections using two projectors, creating an immersive experience where the tangible and virtual interact in real-time.",
         "detailedDescription": "The Feline Game is an immersive experience that merges the physical and virtual environment through the use of two projectors that project three-dimensional images onto a physical structure. This combination allows players to interact with real and digital elements simultaneously, providing a unique sensation of depth and presence. Through advanced projection and synchronization technology, the game creates a space where the boundaries between the tangible and the virtual blur, offering an immersive multisensory experience. Users can explore and actively participate in an environment that blends art, technology, and gaming, ideal for educational, cultural, or recreational applications seeking to innovate in the way of interacting with digital content.",
         "button1": {
-          "text_es": "View Video",
+          "text_es": "Ver Video",
           "text_en": "View Video",
           "link": "./full/felino.mp4",
           "isVisible": true
         },
         "button2": {
-          "text_es": "View the full project",
+          "text_es": "Ver el proyecto completo",
           "text_en": "View the full project",
           "link": "./full/felino.pdf",
           "isVisible": true
         },
         "warning": {
-            "isVisible": false
+          "isVisible": false
         }
       },
-            {
-  "id": 26,
-  "category": "software",
-  "imageSrc": "perfectpay.png",
-  "title": "Perfect Pay",
-  "description": "Android app that helps split the expenses of the bill to be made together with other people.",
-  "detailedDescription": "Perfect Pay is an Android application that makes it easy to split and manage shared expenses among several people. It allows toautomatically calculating how much each participant should pay, simplifying management and avoiding confusion in joint payments such as trips, dinners, or purchases.",
-  "button1": {
-    "text_es": "Ver en la Tienda",
-    "text_en": "View on Store",
-    "link": "https://play.google.com/apps/testing/com.arxbite.perfectpay",
-    "isVisible": true
-  },
-  "button2": {
-    "isVisible": false
-  },
-  "warning": {
-    "isVisible": false
+      {
+        "id": 26,
+        "category": "software",
+        "imageSrc": "perfectpay.png",
+        "title": "Perfect Pay",
+        "description": "Android application that facilitates splitting and managing shared expenses among multiple people.",
+        "detailedDescription": "Perfect Pay is an Android application designed to simplify the division and management of shared expenses. It automatically calculates how much each participant should pay, avoiding confusion in situations like trips, dinners, or group purchases. It is currently in closed beta, with upcoming launch plans.",
+        "button1": {
+          "text_es": "Ver en la Tienda",
+          "text_en": "View on Store",
+          "link": "https://play.google.com/apps/testing/com.arxbite.perfectpay",
+          "isVisible": true
+        },
+        "button2": {
+          "isVisible": false
+        },
+        "warning": {
+          "isVisible": false
+        }
+      }
+    ]
   }
 }
-
-]
-  }
-};
 
     function getInitialLanguage() {
         const urlParams = new URLSearchParams(window.location.search);
