@@ -306,28 +306,6 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         "id": 13,
-        "category": "a3d",
-        "imageSrc": "hocus.png",
-        "title": "Animación 3D en Blender: One Way or Another (Hocus Pocus 2)",
-        "description": "Creación de una animación 3D en Blender basada en un fragmento musical de 'Hocus Pocus 2', aplicando técnicas de rigging y animación para movimientos expresivos.",
-        "detailedDescription": "Realicé una animación 3D detallada en Blender inspirada en un pequeño fragmento de la canción ‘One Way or Another’ de la película Hocus Pocus 2. El trabajo involucró modelado, rigging y animación de los personajes, enfocándome en lograr movimientos naturales y expresivos que capturaran la esencia del material original. Aunque solo se desarrolló una parte muy breve de la canción, consideré importante conservar y documentar el avance realizado. Este proyecto no alcanzó la fase de animación de pies ni de expresiones faciales.",
-        "button1": {
-          "text_es": "Ver Video",
-          "text_en": "View Video",
-          "link": "./full/hocus.mp4",
-          "isVisible": true
-        },
-        "button2": {
-          "isVisible": false
-        },
-        "warning": {
-            "text_es": "Nota: Este proyecto fue realizado con fines personales y de aprendizaje, sin fines comerciales ni lucrativos. No se poseen derechos sobre los contenidos originales de Disney ni Club Penguin, incluyendo sus modelos 3D y musica y se respetaron todos los términos de uso aplicables.",
-            "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
-            "isVisible": true
-        }
-      },
-      {
-        "id": 14,
         "category": "m3d",
         "imageSrc": "pizza.png",
         "title": "Modelado 3D: Exterior Clásico de Club Penguin",
@@ -349,7 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 15,
+        "id": 14,
         "category": "m3d",
         "imageSrc": "intpizza.png",
         "title": "Modelado 3D: Interior de Pizzería de Club Penguin",
@@ -371,7 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 16,
+        "id": 15,
         "category": "m3d",
         "imageSrc": "deadlock.png",
         "title": "Render de Skin Conceptual para Fortnite: Texturizado y Partículas",
@@ -393,7 +371,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 17,
+        "id": 16,
         "category": "a3d",
         "imageSrc": "surf.png",
         "title": "Animación Conceptual de Skin para Fortnite",
@@ -415,7 +393,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 18,
+        "id": 17,
         "category": "m3d",
         "imageSrc": "jonesy.png",
         "title": "Modelado y Edición 3D: Concepto de Skin para Fortnite",
@@ -437,7 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 19,
+        "id": 18,
         "category": "m3d",
         "imageSrc": "reprogrammer.png",
         "title": "Diseño Conceptual de Skin: The Reprogrammer (Fortnite)",
@@ -459,7 +437,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 20,
+        "id": 19,
         "category": "videojuegos",
         "imageSrc": "cpgame.png",
         "title": "Club Penguin en Unreal Engine 5",
@@ -481,7 +459,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 21,
+        "id": 20,
         "category": "videojuegos",
         "imageSrc": "viewworlds.png",
         "title": "Videojuego Educativo VR/Escritorio: “View Worlds”",
@@ -504,7 +482,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 22,
+        "id": 21,
         "category": "ui",
         "imageSrc": "school.png",
         "title": "Diseño de interfaz para calendario escolar interactivo",
@@ -524,7 +502,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 23,
+        "id": 22,
         "category": "ui",
         "imageSrc": "secure.png",
         "title": "Diseño de interfaz para aplicación de transferencia segura de archivos",
@@ -544,7 +522,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 24,
+        "id": 23,
         "category": "videojuegos",
         "imageSrc": "felino.png",
         "title": "Juego del Felino – Experiencia Inmersiva con Proyección 3D Física y Virtual",
@@ -567,7 +545,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
             {
-        "id": 25,
+        "id": 24,
         "category": "software",
         "imageSrc": "perfectpay.png",
         "title": "Perfect Pay",
@@ -875,28 +853,6 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         "id": 13,
-        "category": "a3d",
-        "imageSrc": "hocus.png",
-        "title": "3D Animation in Blender: One Way or Another (Hocus Pocus 2)",
-        "description": "Creation of a 3D animation in Blender based on a musical fragment from 'Hocus Pocus 2', applying rigging and animation techniques for expressive movements.",
-        "detailedDescription": "I created a detailed 3D animation in Blender inspired by a fragment of the song 'One Way or Another' from the movie 'Hocus Pocus 2'. The work involved modeling, rigging, and animating the characters, focusing on achieving natural and expressive movements that captured the essence of the original material. Although only a short part of the song was developed, I documented the progress made. This project did not reach the foot animation or facial expression phase.",
-        "button1": {
-          "text_es": "Ver Video",
-          "text_en": "View Video",
-          "link": "./full/hocus.mp4",
-          "isVisible": true
-        },
-        "button2": {
-          "isVisible": false
-        },
-        "warning": {
-          "text_es": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
-          "text_en": "Note: This project was created for personal and educational purposes, not for commercial or profit. No rights are held to the original Disney or Club Penguin content, including its 3D models and music, and all applicable terms of use were adhered to.",
-          "isVisible": true
-        }
-      },
-      {
-        "id": 14,
         "category": "m3d",
         "imageSrc": "pizza.png",
         "title": "3D Modeling: Classic Club Penguin Exterior",
@@ -918,7 +874,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 15,
+        "id": 14,
         "category": "m3d",
         "imageSrc": "intpizza.png",
         "title": "3D Modeling: Club Penguin Pizzeria Interior",
@@ -940,7 +896,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 16,
+        "id": 15,
         "category": "m3d",
         "imageSrc": "deadlock.png",
         "title": "Conceptual Skin Render for Fortnite: Texturing and Particles",
@@ -962,7 +918,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 17,
+        "id": 16,
         "category": "a3d",
         "imageSrc": "surf.png",
         "title": "Conceptual Skin Animation for Fortnite",
@@ -984,7 +940,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 18,
+        "id": 17,
         "category": "m3d",
         "imageSrc": "jonesy.png",
         "title": "3D Modeling and Editing: Fortnite Skin Concept",
@@ -1006,7 +962,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 19,
+        "id": 18,
         "category": "m3d",
         "imageSrc": "reprogrammer.png",
         "title": "Conceptual Skin Design: The Reprogrammer (Fortnite)",
@@ -1028,7 +984,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 20,
+        "id": 19,
         "category": "videojuegos",
         "imageSrc": "cpgame.png",
         "title": "3D Conceptual Project: Club Penguin in Unreal Engine 5",
@@ -1050,7 +1006,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 21,
+        "id": 20,
         "category": "videojuegos",
         "imageSrc": "viewworlds.png",
         "title": "Educational VR/Desktop Video Game: “View Worlds”",
@@ -1073,7 +1029,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 22,
+        "id": 21,
         "category": "ui",
         "imageSrc": "school.png",
         "title": "Interface Design for Interactive School Calendar",
@@ -1093,7 +1049,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 23,
+        "id": 22,
         "category": "ui",
         "imageSrc": "secure.png",
         "title": "Interface Design for Secure File Transfer Application",
@@ -1113,7 +1069,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 24,
+        "id": 23,
         "category": "videojuegos",
         "imageSrc": "felino.png",
         "title": "The Feline Game – Immersive Experience with Physical and Virtual 3D Projection",
@@ -1136,7 +1092,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        "id": 25,
+        "id": 24,
         "category": "software",
         "imageSrc": "perfectpay.png",
         "title": "Perfect Pay",
